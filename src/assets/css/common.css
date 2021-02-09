@@ -620,13 +620,12 @@ header.vff-header svg.f-logo {
   font-size: .4em;
 }
 
-.vff ul.f-radios li span.f-label {
-  display: block;
-  margin-left: 1.1em;
+.vff ul.f-radios li div.f-label-wrap {
+  display: flex;
 }
 
-.vff ul.f-radios li span.f-key {
-  position: absolute;
+.vff ul.f-radios li span.f-label {
+  margin-left: 1.1em;
 }
 
 /*
@@ -683,8 +682,7 @@ header.vff-header svg.f-logo {
 
 .vff .field-multiplepicturechoice ul.f-radios li div.f-label-wrap{
   width: 100%;
-  position: relative;
-  min-height: 20px;
+  display: flex;
 }
 
 /*

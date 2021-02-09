@@ -115,7 +115,7 @@
               new ChoiceOption({
                 imageSrc: require('./assets/images/facebook.png'),
                 imageAlt: 'Facebook logo',
-                label: 'Facebook'
+                label: ''
               }),
               new ChoiceOption({
                 imageSrc: require('./assets/images/twitter.png'),
@@ -125,7 +125,7 @@
               new ChoiceOption({
                 imageSrc: require('./assets/images/instagram.png'),
                 imageAlt: 'Instagram logo',
-                label: 'Instagram'
+                label: 'To create a new form, import the necessary components and classes into your app, in a way that depends on the installation method.'
               }),
               new ChoiceOption({
                 imageSrc: require('./assets/images/tiktok.png'),
@@ -159,10 +159,10 @@
             required: true,
             options: [
               new ChoiceOption({
-                label: 'Answer 1'
+                label: ''
               }),
               new ChoiceOption({
-                label: 'Answer 2'
+                label: 'To create a new form, import the necessary components and classes into your app, in a way that depends on the installation method.'
                }),
               new ChoiceOption({
                 label: 'Answer 3'
