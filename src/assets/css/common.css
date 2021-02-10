@@ -620,8 +620,10 @@ header.vff-header svg.f-logo {
   font-size: .4em;
 }
 
-.vff ul.f-radios li div.f-label-wrap {
-  display: flex;
+.vff ul.f-radios li div.f-label-wrap,
+.vff ul.f-radios li.f-other {
+  display: grid;
+  grid-template-columns: 0.7em 1fr;
 }
 
 .vff ul.f-radios li span.f-label {
@@ -682,7 +684,6 @@ header.vff-header svg.f-logo {
 
 .vff .field-multiplepicturechoice ul.f-radios li div.f-label-wrap{
   width: 100%;
-  display: flex;
 }
 
 /*
